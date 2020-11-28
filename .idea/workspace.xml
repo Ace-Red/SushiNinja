@@ -1,7 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="14968cc9-623d-446a-b124-b111f7861a34" name="Default Changelist" comment="first commit" />
+    <list default="true" id="14968cc9-623d-446a-b124-b111f7861a34" name="Default Changelist" comment="node js server">
+      <change afterPath="$PROJECT_DIR$/img/logo-loader.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgSushiIteam/1007.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgSushiIteam/101-1-600x600.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgSushiIteam/1014.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgSushiIteam/1015.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgSushiIteam/1016.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgSushiIteam/102-600x600.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgSushiIteam/12-600x600.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgSushiIteam/14-600x600.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgSushiIteam/39.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgSushiIteam/40.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgSushiIteam/41.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgSushiIteam/42.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgSushiIteam/50.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgSushiIteam/7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgSushiIteam/9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgSushiIteam/calcr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/navbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/navbar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,6 +38,8 @@
       <list>
         <option value="HTML File" />
         <option value="CSS File" />
+        <option value="package.json" />
+        <option value="tsconfig.json" />
         <option value="JavaScript File" />
       </list>
     </option>
@@ -24,7 +52,9 @@
     <setting file="file://$PROJECT_DIR$/mainPage.js" root0="SKIP_INSPECTION" />
   </component>
   <component name="ProjectId" id="1kNAvRBgHemTLKCr1nSO06WUITK" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -34,10 +64,12 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/imgSushiIteam" />
       <recent name="$PROJECT_DIR$/img" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/sushi1" />
@@ -54,7 +86,7 @@
       <workItem from="1605530908829" duration="178000" />
       <workItem from="1605531921507" duration="1029000" />
       <workItem from="1605533591374" duration="8125000" />
-      <workItem from="1606330498394" duration="12344000" />
+      <workItem from="1606330498394" duration="22279000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1606587211565</created>
@@ -63,7 +95,21 @@
       <option name="project" value="LOCAL" />
       <updated>1606587211566</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="node js server">
+      <created>1606587626794</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1606587626794</updated>
+    </task>
+    <task id="LOCAL-00003" summary="node js server">
+      <created>1606587671693</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1606587671693</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -71,13 +117,14 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <MESSAGE value="node js server" />
+    <option name="LAST_COMMIT_MESSAGE" value="node js server" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="304" y="187" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606348694957">
+    <state x="304" y="187" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606594108604">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="304" y="187" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1606348694957" />
+    <state x="304" y="187" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1606594108604" />
     <state x="578" y="279" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1606333238335">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -90,9 +137,13 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="611" y="237" key="Github.UntrackedFilesDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1606587012927" />
-    <state x="440" y="265" key="Vcs.Push.Dialog.v2" timestamp="1606587214895">
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2" timestamp="1606587675056">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="440" y="265" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1606587214895" />
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1606587675056" />
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1606590892489">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1606590892489" />
   </component>
 </project>

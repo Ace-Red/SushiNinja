@@ -12,7 +12,11 @@
     background: white;
     font-family: Arial, serif;
 }
-.pizza-area {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+.pizzochka img{
+    font-size: 27px;
+}
+
+.main {
+    flex: 1;
+    padding: 20px;
 }
