@@ -16,11 +16,15 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/index.html" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/mainPage.js" root0="SKIP_INSPECTION" />
   </component>
   <component name="ProjectId" id="1kNAvRBgHemTLKCr1nSO06WUITK" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -50,7 +54,7 @@
       <workItem from="1605530908829" duration="178000" />
       <workItem from="1605531921507" duration="1029000" />
       <workItem from="1605533591374" duration="8125000" />
-      <workItem from="1606330498394" duration="11740000" />
+      <workItem from="1606330498394" duration="11992000" />
     </task>
     <servers />
   </component>
@@ -66,5 +70,17 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="578" y="279" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1606333238335" />
+    <state x="706" y="429" key="Github.ShareDialog" timestamp="1606587000989">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="706" y="429" key="Github.ShareDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1606587000989" />
+    <state x="611" y="237" key="Github.UntrackedFilesDialog" timestamp="1606587012927">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="611" y="237" key="Github.UntrackedFilesDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1606587012927" />
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2" timestamp="1606587020352">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1606587020352" />
   </component>
 </project>
