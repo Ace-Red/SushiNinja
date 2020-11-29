@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="14968cc9-623d-446a-b124-b111f7861a34" name="Default Changelist" comment="node js server">
+    <list default="true" id="14968cc9-623d-446a-b124-b111f7861a34" name="Default Changelist" comment="add db">
       <change afterPath="$PROJECT_DIR$/navigation.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mainPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/mainPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/navbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/navbar.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +66,7 @@
       <workItem from="1605530908829" duration="178000" />
       <workItem from="1605531921507" duration="1029000" />
       <workItem from="1605533591374" duration="8125000" />
-      <workItem from="1606330498394" duration="23479000" />
+      <workItem from="1606330498394" duration="23892000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1606587211565</created>
@@ -100,7 +96,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606604084319</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add db">
+      <created>1606659191894</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1606659191894</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -109,7 +112,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
     <MESSAGE value="node js server" />
-    <option name="LAST_COMMIT_MESSAGE" value="node js server" />
+    <MESSAGE value="add db" />
+    <option name="LAST_COMMIT_MESSAGE" value="add db" />
   </component>
   <component name="WindowStateProjectService">
     <state x="304" y="187" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606594108604">
@@ -124,6 +128,10 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="578" y="279" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1606333238335" />
+    <state x="168" y="94" key="DiffContextDialog" timestamp="1606659033836">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="168" y="94" key="DiffContextDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1606659033836" />
     <state x="706" y="429" key="Github.ShareDialog" timestamp="1606587000989">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -132,10 +140,14 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="611" y="237" key="Github.UntrackedFilesDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1606587012927" />
-    <state x="440" y="265" key="Vcs.Push.Dialog.v2" timestamp="1606604091844">
+    <state x="600" y="234" key="RollbackChangesDialog" timestamp="1606659037990">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="440" y="265" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1606604091844" />
+    <state x="600" y="234" key="RollbackChangesDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1606659037990" />
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2" timestamp="1606659197470">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1606659197470" />
     <state x="611" y="266" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1606604627362">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
