@@ -7,9 +7,8 @@
     <link rel="stylesheet" href="navbar.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
-<body>
+<body onload="loadd()">
 <header>
-
     <nav>
         <div class="navbar-fixed">
             <div class="nav-wrapper" style="font-family: Arial;">
@@ -31,6 +30,8 @@
                                 <font style="vertical-align: inherit ;color:black;">Контакты</font></font>
                             </a>
                         </li>
+                        <li> <div class="menu-openner"><span>0</span> эл. в корзине</div></li>
+                        <li><a class="pizzochka" href="#basket"><img src="img/cart-icon.svg"></img></a></li>
                     </ul>
                 </div>
             </div>
@@ -78,66 +79,65 @@
         </li>
     </ul>
 </div>
-<main>
-    <h1 class="center light white-text"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Наше меню</font></font></h1>
-    <div class="pizza-area"><div class="pizza-item" data-key="0">
-        <a href="">
-            <div class="pizza-item--img"><img src="images/pizza.png"></div>
-            <div class="pizza-item--add"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">+</font></font></div>
-        </a>
-        <div class="pizza-item--price"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">20,19 євро</font></font></div>
-        <div class="pizza-item--name"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Маргарита</font></font></div>
-        <div class="pizza-item--desc"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Опис піци</font></font></div>
-    </div><div class="pizza-item" data-key="1">
-        <a href="">
-            <div class="pizza-item--img"><img src="images/pizza2.png"></div>
-            <div class="pizza-item--add"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">+</font></font></div>
-        </a>
-        <div class="pizza-item--price"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">€ 18,00</font></font></div>
-        <div class="pizza-item--name"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Калабреса</font></font></div>
-        <div class="pizza-item--desc"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Опис піци</font></font></div>
-    </div><div class="pizza-item" data-key="2">
-        <a href="">
-            <div class="pizza-item--img"><img src="images/pizza3.png"></div>
-            <div class="pizza-item--add"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">+</font></font></div>
-        </a>
-        <div class="pizza-item--price"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">€ 17,45</font></font></div>
-        <div class="pizza-item--name"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Чотири сири</font></font></div>
-        <div class="pizza-item--desc"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Опис піци</font></font></div>
-    </div><div class="pizza-item" data-key="3">
-        <a href="">
-            <div class="pizza-item--img"><img src="images/pizza4.png"></div>
-            <div class="pizza-item--add"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">+</font></font></div>
-        </a>
-        <div class="pizza-item--price"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">€ 19,77</font></font></div>
-        <div class="pizza-item--name"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Американа</font></font></div>
-        <div class="pizza-item--desc"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Опис піци</font></font></div>
-    </div><div class="pizza-item" data-key="4">
-        <a href="">
-            <div class="pizza-item--img"><img src="images/pizza5.png"></div>
-            <div class="pizza-item--add"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">+</font></font></div>
-        </a>
-        <div class="pizza-item--price"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">21,43 євро</font></font></div>
-        <div class="pizza-item--name"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Пепероні</font></font></div>
-        <div class="pizza-item--desc"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Опис піци</font></font></div>
-    </div><div class="pizza-item" data-key="5">
-        <a href="">
-            <div class="pizza-item--img"><img src="images/pizza6.png"></div>
-            <div class="pizza-item--add"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">+</font></font></div>
-        </a>
-        <div class="pizza-item--price"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">€ 18,55</font></font></div>
-        <div class="pizza-item--name"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Халапеніо</font></font></div>
-        <div class="pizza-item--desc"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Опис піци</font></font></div>
-    </div><div class="pizza-item" data-key="6">
-        <a href="">
-            <div class="pizza-item--img"><img src="images/pizza7.png"></div>
-            <div class="pizza-item--add"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">+</font></font></div>
-        </a>
-        <div class="pizza-item--price"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">€ 22,36</font></font></div>
-        <div class="pizza-item--name"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Шоколад</font></font></div>
-        <div class="pizza-item--desc"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Опис піци</font></font></div>
-    </div></div>
+
+
+<main id='catalog'>
+    <h1 class="center light black-text">Меню</h1>
+    <h1 id = 'best'>Популярные</h1>
+    <div class="pizza-area1 pizza-area"></div>
+    <h1 id='cheapest'>Акционная продукция</h1>
+    <div class="pizza-area2 pizza-area"></div>
+    <h1 id='cheff'>Рекомендация</h1>
+    <div class="pizza-area3 pizza-area"></div>
 </main>
+<aside id = 'basket'>
+    <div class="cart--area">
+        <div class="menu-closer">❌</div>
+        <h1>Your Pizza</h1>
+        <div class="cart"></div>
+        <div class="cart--details">
+            <div class="cart--totalitem subtotal">
+                <span>Subtotal</span>
+                <span></span>
+            </div>
+            <div class="cart--totalitem desconto">
+                <span>Discount (-10%)</span>
+                <span></span>
+            </div>
+            <div class="cart--totalitem total big">
+                <span>Total</span>
+                <span></span>
+            </div>
+            <form name="orderForm"  onsubmit="return validateForm()">
+                <div class="form-group" id='cart'>
+                    <label for="name">Name: </label>
+                    <input type="text" id="name" class="customer-details form-control" placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                    <label for="address">Address: </label>
+                    <input type="text" id="address" class="customer-details form-control" placeholder="1234 Main Str">
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="city">City: </label>
+                    <input type="text" id="city" class="customer-details form-control">
+                </div>
+                <div class="form-group col-md-4">
+                    <label for="email">Email: </label>
+                    <input type="text" id="state" class="customer-details form-control">
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone:(format:+380 (XX)-XXX-XX-XX) </label>
+                    <input type="text" id="phone" class="customer-details form-control">
+                </div>
+                <button type="submit" class="btn btn-dark">Submit Order</button>
+            </form>
+
+            <div onClick="doTask()" class="cart--finalizar">Remove</div>
+            <div class=""></div>
+
+        </div>
+    </div>
+</aside>
 
 <footer class="page-footer">
     <div class="container">
@@ -186,9 +186,9 @@
         </div>
     </div>
 </footer>
-
-
+<script type="text/javascript" src="script.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 <script src="mainPage.js"></script>
+<script src="navigation.js"></script>
 </body>
 </html>

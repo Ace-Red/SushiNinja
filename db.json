@@ -1,0 +1,583 @@
+{
+  "pizzaJson1": [
+    {
+      "id": 11,
+      "name": "Филадельфия с лососем",
+      "img": "imgSushiIteam/101-1-600x600.png",
+      "price": 245,
+      "sizes": [
+        "300g",
+        "750g",
+        "1000g"
+      ],
+      "description": "Deskription"
+    },
+    {
+      "id": 12,
+      "name": "Филадельфия с угрем",
+      "img": "imgSushiIteam/102-600x600.png",
+      "price": 325,
+      "sizes": [
+        "300g",
+        "750g",
+        "1000g"
+      ],
+      "description": "Deskription"
+    },
+    {
+      "id": 13,
+      "name": "Филадельфия с лососем и авокадо",
+      "img": "imgSushiIteam/7.png",
+      "price": 255,
+      "sizes": [
+        "300g",
+        "750g",
+        "1000g"
+      ],
+      "description": "Deskription"
+    },
+    {
+      "id": 14,
+      "name": "Зеленый дракон",
+      "img": "imgSushiIteam/9.png",
+      "price": 285,
+      "sizes": [
+        "300g",
+        "750g",
+        "1000g"
+      ],
+      "description": "Deskription"
+    },
+    {
+      "id": 15,
+      "name": "Канада",
+      "img": "imgSushiIteam/42.png",
+      "price": 335,
+      "sizes": [
+        "300g",
+        "750g",
+        "1000g"
+      ],
+      "description": "Deskription"
+    },
+    {
+      "id": 16,
+      "name": "Тигровый дракон",
+      "img": "imgSushiIteam/42.png",
+      "price": 310,
+      "sizes": [
+        "300g",
+        "750g",
+        "1000g"
+      ],
+      "description": "Deskription"
+    },
+    {
+      "id": 17,
+      "name": "Орео",
+      "img": "imgSushiIteam/1014.png",
+      "price": 170,
+      "sizes": [
+        "300g",
+        "750g",
+        "1000g"
+      ],
+      "description": "Deskription"
+    },
+    {
+      "id": 18,
+      "name": "Золотой дракон",
+      "img": "imgSushiIteam/41.png",
+      "price": 360,
+      "sizes": [
+        "300g",
+        "750g",
+        "1000g"
+      ],
+      "description": "Deskription"
+    },
+    {
+      "id": 19,
+      "name": "Калифорния с крабом",
+      "img": "imgSushiIteam/calcr.png",
+      "price": 250,
+      "sizes": [
+        "300g",
+        "750g",
+        "1000g"
+      ],
+      "description": "Deskription"
+    },
+    {
+      "id": 110,
+      "name": "Филадельфия с тунцом",
+      "img": "imgSushiIteam/12-600x600.png",
+      "price": 300,
+      "sizes": [
+        "300g",
+        "750g",
+        "1000g"
+      ],
+      "description": "Deskription"
+    },
+    {
+      "id": 111,
+      "name": "Феликс гребешок",
+      "img": "imgSushiIteam/14-600x600.png",
+      "price": 295,
+      "sizes": [
+        "300g",
+        "750g",
+        "1000g"
+      ],
+      "description": "Deskription"
+    },
+    {
+      "id": 112,
+      "name": "Красный дракон",
+      "img": "imgSushiIteam/39.png",
+      "price": 335,
+      "sizes": [
+        "300g",
+        "750g",
+        "1000g"
+      ],
+      "description": "Deskription"
+    },
+    {
+      "id": 113,
+      "name": "Fruit Ninja",
+      "img": "imgSushiIteam/1015.png",
+      "price": 150,
+      "sizes": [
+        "300g",
+        "750g",
+        "1000g"
+      ],
+      "description": "Deskription"
+    },
+    {
+      "id": 114,
+      "name": "Хиросима",
+      "img": "imgSushiIteam/50.png",
+      "price": 250,
+      "sizes": [
+        "300g",
+        "750g",
+        "1000g"
+      ],
+      "description": "Deskription"
+    },
+    {
+      "id": 115,
+      "name": "Bounty",
+      "img": "imgSushiIteam/1016.png",
+      "price": 150,
+      "sizes": [
+        "300g",
+        "750g",
+        "1000g"
+      ],
+      "description": "Deskription"
+    },
+    {
+      "id": 116,
+      "name": "Аппетито Спайси",
+      "img": "imgSushiIteam/1007.png",
+      "price": 230,
+      "sizes": [
+        "300g",
+        "750g",
+        "1000g"
+      ],
+      "description": "Deskription"
+    }
+  ],
+  "pizzaJson2": [
+    {
+      "id": 21,
+      "name": "Филадельфия с лососем",
+      "img": "imgSushiIteam/101-1-600x600.png",
+      "price": 245,
+      "sizes": [
+        "100g",
+        "750g",
+        "1000g"
+      ],
+      "description": "Deskription"
+    },
+    {
+      "id": 22,
+      "name": "Филадельфия с угрем",
+      "img": "imgSushiIteam/102-600x600.png",
+      "price": 325,
+      "sizes": [
+        "300g",
+        "750g",
+        "1000g"
+      ],
+      "description": "Deskription"
+    },
+    {
+      "id": 23,
+      "name": "Филадельфия с лососем и авокадо",
+      "img": "imgSushiIteam/7.png",
+      "price": 255,
+      "sizes": [
+        "300g",
+        "750g",
+        "1000g"
+      ],
+      "description": "Deskription"
+    },
+    {
+      "id": 24,
+      "name": "Зеленый дракон",
+      "img": "imgSushiIteam/9.png",
+      "price": 285,
+      "sizes": [
+        "300g",
+        "750g",
+        "1000g"
+      ],
+      "description": "Deskription"
+    },
+    {
+      "id": 25,
+      "name": "Канада",
+      "img": "imgSushiIteam/40.png",
+      "price": 335,
+      "sizes": [
+        "300g",
+        "750g",
+        "1000g"
+      ],
+      "description": "Deskription"
+    },
+    {
+      "id": 26,
+      "name": "Тигровый дракон",
+      "img": "imgSushiIteam/42.png",
+      "price": 335,
+      "sizes": [
+        "300g",
+        "750g",
+        "1000g"
+      ],
+      "description": "Deskription"
+    },
+    {
+      "id": 27,
+      "name": "Орео",
+      "img": "imgSushiIteam/1014.png",
+      "price": 170,
+      "sizes": [
+        "300g",
+        "750g",
+        "1000g"
+      ],
+      "description": "Deskription"
+    },
+    {
+      "id": 28,
+      "name": "Золотой дракон",
+      "img": "imgSushiIteam/41.png",
+      "price": 360,
+      "sizes": [
+        "300g",
+        "750g",
+        "1000g"
+      ],
+      "description": "Deskription"
+    },
+    {
+      "id": 29,
+      "name": "Калифорния с крабом",
+      "img": "imgSushiIteam/calcr.png",
+      "price": 250,
+      "sizes": [
+        "300g",
+        "750g",
+        "1000g"
+      ],
+      "description": "Deskription"
+    },
+    {
+      "id": 210,
+      "name": "Филадельфия с тунцом",
+      "img": "imgSushiIteam/12-600x600.png",
+      "price": 300,
+      "sizes": [
+        "300g",
+        "750g",
+        "1000g"
+      ],
+      "description": "Deskription"
+    },
+    {
+      "id": 211,
+      "name": "Феликс гребешок",
+      "img": "imgSushiIteam/14-600x600.png",
+      "price": 295,
+      "sizes": [
+        "300g",
+        "750g",
+        "1000g"
+      ],
+      "description": "Deskription"
+    },
+    {
+      "id": 212,
+      "name": "Красный дракон",
+      "img": "imgSushiIteam/39.png",
+      "price": 335,
+      "sizes": [
+        "300g",
+        "750g",
+        "1000g"
+      ],
+      "description": "Deskription"
+    },
+    {
+      "id": 213,
+      "name": "Fruit Ninja",
+      "img": "imgSushiIteam/1015.png",
+      "price": 150,
+      "sizes": [
+        "300g",
+        "750g",
+        "1000g"
+      ],
+      "description": "Deskription"
+    },
+    {
+      "id": 214,
+      "name": "Хиросима",
+      "img": "imgSushiIteam/50.png",
+      "price": 250,
+      "sizes": [
+        "300g",
+        "750g",
+        "1000g"
+      ],
+      "description": "Deskription"
+    },
+    {
+      "id": 215,
+      "name": "Bounty",
+      "img": "imgSushiIteam/1016.png",
+      "price": 150,
+      "sizes": [
+        "300g",
+        "750g",
+        "1000g"
+      ],
+      "description": "Deskription"
+    },
+    {
+      "id": 216,
+      "name": "Аппетито Спайси",
+      "img": "imgSushiIteam/1007.png",
+      "price": 230,
+      "sizes": [
+        "300g",
+        "750g",
+        "1000g"
+      ],
+      "description": "Deskription"
+    }
+  ],
+  "pizzaJson3": [
+    {
+      "id": 31,
+      "name": "Филадельфия с лососем",
+      "img": "imgSushiIteam/101-1-600x600.png",
+      "price": 245,
+      "sizes": [
+        "300g",
+        "750g",
+        "1000g"
+      ],
+      "description": "Deskription"
+    },
+    {
+      "id": 32,
+      "name": "Филадельфия с угрем",
+      "img": "imgSushiIteam/102-600x600.png",
+      "price": 325,
+      "sizes": [
+        "300g",
+        "750g",
+        "1000g"
+      ],
+      "description": "Deskription"
+    },
+    {
+      "id": 33,
+      "name": "Филадельфия с лососем и авокадо",
+      "img": "imgSushiIteam/7.png",
+      "price": 255,
+      "sizes": [
+        "300g",
+        "750g",
+        "1000g"
+      ],
+      "description": "Deskription"
+    },
+    {
+      "id": 34,
+      "name": "Зеленый дракон",
+      "img": "imgSushiIteam/9.png",
+      "price": 285,
+      "sizes": [
+        "300g",
+        "750g",
+        "1000g"
+      ],
+      "description": "Deskription"
+    },
+    {
+      "id": 35,
+      "name": "Канада",
+      "img": "imgSushiIteam/40.png",
+      "price": 335,
+      "sizes": [
+        "300g",
+        "750g",
+        "1000g"
+      ],
+      "description": "Deskription"
+    },
+    {
+      "id": 36,
+      "name": "Тигровый дракон",
+      "img": "imgSushiIteam/42.png",
+      "price": 335,
+      "sizes": [
+        "300g",
+        "750g",
+        "1000g"
+      ],
+      "description": "Deskription"
+    },
+    {
+      "id": 37,
+      "name": "Орео",
+      "img": "imgSushiIteam/1014.png",
+      "price": 170,
+      "sizes": [
+        "300g",
+        "750g",
+        "1000g"
+      ],
+      "description": "Deskription"
+    },
+    {
+      "id": 38,
+      "name": "Золотой дракон",
+      "img": "imgSushiIteam/41.png",
+      "price": 360,
+      "sizes": [
+        "300g",
+        "750g",
+        "1000g"
+      ],
+      "description": "Deskription"
+    },
+    {
+      "id": 39,
+      "name": "Калифорния с крабом",
+      "img": "imgSushiIteam/calcr.png",
+      "price": 250,
+      "sizes": [
+        "300g",
+        "750g",
+        "1000g"
+      ],
+      "description": "Deskription"
+    },
+    {
+      "id": 310,
+      "name": "Филадельфия с тунцом",
+      "img": "imgSushiIteam/12-600x600.png",
+      "price": 300,
+      "sizes": [
+        "300g",
+        "750g",
+        "1000g"
+      ],
+      "description": "Deskription"
+    },
+    {
+      "id": 311,
+      "name": "Феликс гребешок",
+      "img": "imgSushiIteam/14-600x600.png",
+      "price": 295,
+      "sizes": [
+        "300g",
+        "750g",
+        "1000g"
+      ],
+      "description": "Deskription"
+    },
+    {
+      "id": 312,
+      "name": "Красный дракон",
+      "img": "imgSushiIteam/39.png",
+      "price": 335,
+      "sizes": [
+        "300g",
+        "750g",
+        "1000g"
+      ],
+      "description": "Deskription"
+    },
+    {
+      "id": 313,
+      "name": "Fruit Ninja",
+      "img": "imgSushiIteam/1015.png",
+      "price": 150,
+      "sizes": [
+        "300g",
+        "750g",
+        "1000g"
+      ],
+      "description": "Deskription"
+    },
+    {
+      "id": 314,
+      "name": "Хиросима",
+      "img": "imgSushiIteam/50.png",
+      "price": 250,
+      "sizes": [
+        "300g",
+        "750g",
+        "1000g"
+      ],
+      "description": "Deskription"
+    },
+    {
+      "id": 315,
+      "name": "Bounty",
+      "img": "imgSushiIteam/1016.png",
+      "price": 150,
+      "sizes": [
+        "300g",
+        "750g",
+        "1000g"
+      ],
+      "description": "Deskription"
+    },
+    {
+      "id": 316,
+      "name": "Аппетито Спайси",
+      "img": "imgSushiIteam/1007.png",
+      "price": 230,
+      "sizes": [
+        "300g",
+        "750g",
+        "1000g"
+      ],
+      "description": "Deskription"
+    }
+  ]}
