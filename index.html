@@ -31,7 +31,7 @@
                             </a>
                         </li>
                         <li> <div class="menu-openner"><span>0</span> эл. в корзине</div></li>
-                        <li><a class="pizzochka" href="#basket"><img src="img/cart-icon.svg"></img></a></li>
+                        <li><a class="sushik" href="#basket"><img src="img/cart-icon.svg"></img></a></li>
                     </ul>
                 </div>
             </div>
@@ -80,64 +80,37 @@
     </ul>
 </div>
 
-
+<div class="models">
+    <div class="sushi-item">
+        <a href="">
+            <div class="sushi-item--img"><img src="" /></div>
+            <div class="sushi-item--add">+</div>
+        </a>
+        <div class="sushi-item--price"></div>
+        <div class="sushi-item--name"></div>
+        <div class="sushi-item--desc"></div>
+    </div>
+    <div class="cart--item">
+        <img src="" />
+        <div class="cart--item-nome"></div>
+        <div class="cart--item--qtarea">
+            <button class="cart--item-qtmenos">-</button>
+            <div class="cart--item--qt">1</div>
+            <button class="cart--item-qtmais">+</button>
+        </div>
+    </div>
+</div>
 <main id='catalog'>
     <h1 class="center light black-text">Меню</h1>
     <h1 id = 'best'>Популярные</h1>
-    <div class="pizza-area1 pizza-area"></div>
+    <div class="sushi-area1 sushi-area"></div>
     <h1 id='cheapest'>Акционная продукция</h1>
-    <div class="pizza-area2 pizza-area"></div>
+    <div class="sushi-area2 sushi-area"></div>
     <h1 id='cheff'>Рекомендация</h1>
-    <div class="pizza-area3 pizza-area"></div>
+    <div class="sushi-area3 sushi-area"></div>
 </main>
-<aside id = 'basket'>
-    <div class="cart--area">
-        <div class="menu-closer">❌</div>
-        <h1>Your Pizza</h1>
-        <div class="cart"></div>
-        <div class="cart--details">
-            <div class="cart--totalitem subtotal">
-                <span>Subtotal</span>
-                <span></span>
-            </div>
-            <div class="cart--totalitem desconto">
-                <span>Discount (-10%)</span>
-                <span></span>
-            </div>
-            <div class="cart--totalitem total big">
-                <span>Total</span>
-                <span></span>
-            </div>
-            <form name="orderForm"  onsubmit="return validateForm()">
-                <div class="form-group" id='cart'>
-                    <label for="name">Name: </label>
-                    <input type="text" id="name" class="customer-details form-control" placeholder="Enter your name">
-                </div>
-                <div class="form-group">
-                    <label for="address">Address: </label>
-                    <input type="text" id="address" class="customer-details form-control" placeholder="1234 Main Str">
-                </div>
-                <div class="form-group col-md-6">
-                    <label for="city">City: </label>
-                    <input type="text" id="city" class="customer-details form-control">
-                </div>
-                <div class="form-group col-md-4">
-                    <label for="email">Email: </label>
-                    <input type="text" id="state" class="customer-details form-control">
-                </div>
-                <div class="form-group">
-                    <label for="phone">Phone:(format:+380 (XX)-XXX-XX-XX) </label>
-                    <input type="text" id="phone" class="customer-details form-control">
-                </div>
-                <button type="submit" class="btn btn-dark">Submit Order</button>
-            </form>
 
-            <div onClick="doTask()" class="cart--finalizar">Remove</div>
-            <div class=""></div>
 
-        </div>
-    </div>
-</aside>
 
 <footer class="page-footer">
     <div class="container">

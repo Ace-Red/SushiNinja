@@ -1,5 +1,5 @@
 {
-  "pizzaJson1": [
+  "sushiJson1": [
     {
       "id": 11,
       "name": "Филадельфия с лососем",
@@ -193,7 +193,7 @@
       "description": "Deskription"
     }
   ],
-  "pizzaJson2": [
+  "sushiJson2": [
     {
       "id": 21,
       "name": "Филадельфия с лососем",
@@ -387,7 +387,7 @@
       "description": "Deskription"
     }
   ],
-  "pizzaJson3": [
+  "sushiJson3": [
     {
       "id": 31,
       "name": "Филадельфия с лососем",
