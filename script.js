@@ -131,19 +131,19 @@ async function getSushiJson3() {
     const data = await res.json()
     sushiJson3 = data
     sushiJson3.map((sushi, index) => {
-        let pizzaItem = qs(".models .sushi-item").cloneNode(true)
-        pizzaItem.setAttribute("data-key", index)
-        pizzaItem.querySelector(".sushi-item--img img").src = sushi.img //Consegue-se usar a class e a tag num mesmo querySelector
-        pizzaItem.querySelector(
+        let sushiItem = qs(".models .sushi-item").cloneNode(true)
+        sushiItem.setAttribute("data-key", index)
+        sushiItem.querySelector(".sushi-item--img img").src = sushi.img //Consegue-se usar a class e a tag num mesmo querySelector
+        sushiItem.querySelector(
             ".sushi-item--price"
         ).innerHTML = sushi.price.toLocaleString("pt-BR", {
             style: "currency",
             currency: "UAH",
         })
-        pizzaItem.querySelector(".sushi-item--name").innerHTML = sushi.name
-        pizzaItem.querySelector(".sushi-item--desc").innerHTML =
+        sushiItem.querySelector(".sushi-item--name").innerHTML = sushi.name
+        sushiItem.querySelector(".sushi-item--desc").innerHTML =
             sushi.description
-        pizzaItem.querySelector("a").addEventListener("click", (e) => {
+        sushiItem.querySelector("a").addEventListener("click", (e) => {
             e.preventDefault()
             let key = e.target.closest(".sushi-item").getAttribute("data-key")
             const sushiKey = sushiJson3[key]
