@@ -154,3 +154,222 @@
     padding: 0px 5px;
     color: #000;
 }
+aside {
+    background-color: white;
+    width: 0vw;
+    font-family: "Hepta Slab", Helvetica, Arial;
+    transition: all ease 0.2s;
+    overflow-x: hidden;
+}
+aside.show {
+    width: 100%;
+}
+.cart--area {
+    padding: 20px;
+}
+.menu-closer {
+    width: 32px;
+    height: 32px;
+    display: none;
+    font-size: 30px;
+}
+.cart {
+    margin-bottom: 20px;
+}
+.cart--totalitem {
+    padding: 15px 0;
+    border-top: 1px solid #79b9dd;
+    color: #315970;
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+}
+.cart--totalitem span:first-child {
+    font-weight: bold;
+}
+.cart--totalitem.big {
+    font-size: 20px;
+    color: #000;
+    font-weight: bold;
+}
+.cart--finalizar {
+    padding: 20px 30px;
+    border-radius: 20px;
+    background-color: #48d05f;
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 20px;
+    border: 2px solid #63f77c;
+    transition: all ease 0.2s;
+}
+.cart--finalizar:hover {
+    background-color: #35af4a;
+}
+
+.order--item {
+    font-size: 1.5rem;
+    padding: 10px 120px;
+    border-top: 1px solid #79b9dd;
+}
+.orderPage {
+    margin: 30px 0;
+    margin-bottom: 450px;
+    display: none;
+}
+.serverError {
+    margin-bottom: 800px;
+    display: none;
+}
+.sushiWindowArea {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(255, 255, 255, 0.5);
+    display: none;
+    transition: all ease 0.5s;
+    justify-content: center;
+    align-items: center;
+    overflow-y: auto;
+}
+.sushiWindowBody {
+    width: 900px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px #999;
+    display: flex;
+    margin: 20px 0px;
+}
+.sushiBig {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sushiBig--back {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: #000;
+}
+.sushiBig img {
+    height: 400px;
+    width: auto;
+}
+.sushiInfo {
+    flex: 1;
+    font-family: "Hepta Slab", Helvetica, Arial;
+    padding-bottom: 50px;
+}
+.sushiInfo h1 {
+    margin-top: 50px;
+}
+.sushiInfo .sushiInfo--desc {
+    font-size: 15px;
+    color: #999;
+    margin-top: 10px;
+    font-family: "Lato", Helvetica, Arial;
+}
+.sushiInfo--sector {
+    color: #ccc;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.sushiInfo--sizes {
+    display: inline-flex;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.sushiInfo--size {
+    padding: 10px 15px;
+    color: #000;
+    background-color: #eee;
+    font-size: 13px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.sushiInfo--size:hover {
+    background-color: #ccc;
+}
+.sushiInfo--size.selected {
+    background-color: #399ade;
+    color: #fff;
+}
+.sushiInfo--size.selected span {
+    color: #d6d6d6;
+}
+.sushiInfo--size span {
+    font-size: 12px;
+    color: #999;
+    font-weight: normal;
+}
+.sushiInfo--price {
+    display: flex;
+    align-items: center;
+}
+.sushiInfo--actualPrice {
+    font-size: 28px;
+    margin-right: 30px;
+}
+.sushiInfo--qtarea {
+    display: inline-flex;
+    background-color: #eee;
+    border-radius: 10px;
+    height: 30px;
+}
+.sushiInfo--qtarea button {
+    border: 0;
+    background-color: transparent;
+    font-size: 17px;
+    outline: 0;
+    cursor: pointer;
+    padding: 0px 10px;
+    color: #333;
+}
+.sushiInfo--qt {
+    line-height: 30px;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 0px 5px;
+    color: #000;
+}
+.sushiInfo--addButton {
+    margin-top: 30px;
+    padding: 20px 30px;
+    border-radius: 20px;
+    background-color: #48d05f;
+    color: #fff;
+    display: inline-block;
+    cursor: pointer;
+    margin-right: 30px;
+}
+.sushiInfo--addButton:hover {
+    background-color: #32a345;
+}
+.sushiInfo--cancelButton {
+    display: inline-block;
+    cursor: pointer;
+}
+.boxBack {
+    display: flex;
+    justify-content: flex-end;
+}
+.sushiInfo--cancelMobileButton {
+    display: none;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    line-height: 40px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    background-color: rgb(238, 69, 69);
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+.sushiInfo--cancelMobileButton:hover {
+    background-color: rgb(248, 32, 32);
+}

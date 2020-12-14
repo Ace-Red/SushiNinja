@@ -35,10 +35,10 @@ async function validateForm() {
     try {
         //генерація айді
         let id = `f${(+new Date()).toString(16)}`
-        let pizzas = []
-        // забира дані з локал стораджа і масив піц створюється
+        let sushis = []
+        // забира дані з локал стораджа і масив суш створюється
         JSON.parse(localStorage.getItem("session")).forEach((element) => {
-            pizzas.push(element.Nome)
+            sushis.push(element.Nome)
         })
         await fetch(" http://localhost:3000/completedOrders", {
             method: "POST",
@@ -47,7 +47,7 @@ async function validateForm() {
             },
             body: JSON.stringify({
                 id,
-                pizzas: pizzas.join(","),
+                sushis: sushis.join(","),
                 name,
                 address,
                 city,
@@ -65,7 +65,7 @@ async function validateForm() {
             {}
         )
 
-        qs(".orderPizzasList span:last-child").innerHTML = pizzas
+        qs(".orderSushisList span:last-child").innerHTML = sushis
             .join(",")
             .toLocaleString("pt-BR", {})
         qs(".orderName span:last-child").innerHTML = name.toLocaleString(

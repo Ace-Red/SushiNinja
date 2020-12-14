@@ -110,7 +110,7 @@ async function getSushiJson2() {
             qsa(".sushiInfo--size").forEach((size, sizeIndex) => {
                 if (sizeIndex == 2) size.classList.add("selected")
 
-                const sushiSizes = pizzaJson2[key].sizes[sizeIndex]
+                const sushiSizes = sushiJson2[key].sizes[sizeIndex]
                 size.querySelector("span").innerHTML = sushiSizes
             })
 
@@ -179,7 +179,7 @@ async function getSushiJson3() {
     })
 }
 getSushiJson3()
-
+//-----------------------------------------------------------
 const closeModal = () => {
     qs(".sushiWindowArea").style.opacity = 0
     setTimeout(() => {
@@ -187,12 +187,12 @@ const closeModal = () => {
     }, 500)
 }
 
-qsa(".sushiInfo--cancelMobileButton, .pizzaInfo--cancelButton").forEach(
+qsa(".sushiInfo--cancelMobileButton, .sushiInfo--cancelButton").forEach(
     (item) => {
         item.addEventListener("click", closeModal)
     }
 )
-// зменшуємо і добавляємо кількість піцц
+// зменшуємо і добавляємо кількість
 qs(".sushiInfo--qtmenos").addEventListener("click", () => {
     if (modalCount > 1) {
         modalCount--
@@ -234,6 +234,7 @@ qs(".sushiInfo--addButton").addEventListener("click", () => {
     updateCart()
     closeModal()
 })
+//--------------------------------------------------------------------------------------------------
 // якщо не пуста вона відображається
 qs(".menu-openner").addEventListener("click", () => {
     if (cart.length > 0) {
