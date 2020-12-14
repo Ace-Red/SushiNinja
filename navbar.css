@@ -221,6 +221,14 @@ aside.show {
     margin-bottom: 800px;
     display: none;
 }
+.ordered {
+    background-color: #9ccbe6;
+    width: 0vw;
+    font-family: "Hepta Slab", Helvetica, Arial;
+    transition: all ease 0.2s;
+    overflow-x: hidden;
+}
+
 .sushiWindowArea {
     position: fixed;
     left: 0;
