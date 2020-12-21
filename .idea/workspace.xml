@@ -22,13 +22,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="14968cc9-623d-446a-b124-b111f7861a34" name="Default Changelist" comment="fix bug with SushiJson3">
+    <list default="true" id="14968cc9-623d-446a-b124-b111f7861a34" name="Default Changelist" comment="validationForm created">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mainPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/mainPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/navbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/navbar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/navigation.js" beforeDir="false" afterPath="$PROJECT_DIR$/navigation.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +87,8 @@
       <workItem from="1607969544782" duration="1457000" />
       <workItem from="1607973665489" duration="26000" />
       <workItem from="1607973802221" duration="79000" />
-      <workItem from="1607974067989" duration="4536000" />
+      <workItem from="1607974067989" duration="8419000" />
+      <workItem from="1608571378608" duration="773000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1606587211565</created>
@@ -150,7 +146,21 @@
       <option name="project" value="LOCAL" />
       <updated>1607969899753</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="fix bug with SushiJson2">
+      <created>1607982431367</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1607982431367</updated>
+    </task>
+    <task id="LOCAL-00010" summary="validationForm created">
+      <created>1607986806189</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1607986806189</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -175,7 +185,9 @@
     <MESSAGE value="package.json" />
     <MESSAGE value="menu" />
     <MESSAGE value="fix bug with SushiJson3" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix bug with SushiJson3" />
+    <MESSAGE value="fix bug with SushiJson2" />
+    <MESSAGE value="validationForm created" />
+    <option name="LAST_COMMIT_MESSAGE" value="validationForm created" />
   </component>
   <component name="WindowStateProjectService">
     <state x="304" y="187" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606594108604">
@@ -206,10 +218,10 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="600" y="234" key="RollbackChangesDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1606659037990" />
-    <state x="440" y="269" key="Vcs.Push.Dialog.v2" timestamp="1607969907902">
-      <screen x="0" y="23" width="1680" height="975" />
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2" timestamp="1607986810801">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="440" y="265" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1606687295054" />
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1607986810801" />
     <state x="440" y="269" key="Vcs.Push.Dialog.v2/0.23.1680.975@0.23.1680.975" timestamp="1607969907902" />
     <state x="611" y="266" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1606604627362">
       <screen x="0" y="0" width="1680" height="1050" />
