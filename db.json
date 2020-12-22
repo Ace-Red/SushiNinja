@@ -743,6 +743,15 @@
       "city": "Kiev",
       "state": "Nikitasakun1@gmail.com",
       "phone": "+380 (98)-528-47-47"
+    },
+    {
+      "id": "f1768acf3cc7",
+      "sushis": "Филадельфия с тунцом",
+      "name": "A",
+      "address": "Generala Vorobyova 13E",
+      "city": "Kiev",
+      "state": "Nikitasakun1@gmail.com",
+      "phone": "+380 (98)-528-47-47"
     }
   ]
 }

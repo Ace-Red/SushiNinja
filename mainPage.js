@@ -57,8 +57,6 @@ async function validateForm() {
             }),
         })
         showOrder()
-        closeCart()
-
 
         let currentUrl = location.href
         let newUrl = currentUrl.split("#")[0]
@@ -104,6 +102,7 @@ function doTask2() {
 
 function closeOrder() {
     qs(".orderPage").style.display = "none"
+    doTask2()
 }
 function showOrder() {
     qs(".orderPage").style.display = "block"

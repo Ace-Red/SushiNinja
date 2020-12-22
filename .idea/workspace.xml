@@ -87,7 +87,7 @@
       <workItem from="1607973802221" duration="79000" />
       <workItem from="1607974067989" duration="8419000" />
       <workItem from="1608571378608" duration="9022000" />
-      <workItem from="1608639279544" duration="5884000" />
+      <workItem from="1608639279544" duration="6128000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1606587211565</created>
@@ -334,7 +334,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608646071416</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="fix bug">
+      <created>1608646549477</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1608646549477</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -394,10 +401,10 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="600" y="234" key="RollbackChangesDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1606659037990" />
-    <state x="440" y="265" key="Vcs.Push.Dialog.v2" timestamp="1608646074922">
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2" timestamp="1608646551576">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="440" y="265" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1608646074922" />
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1608646551576" />
     <state x="440" y="269" key="Vcs.Push.Dialog.v2/0.23.1680.975@0.23.1680.975" timestamp="1607969907902" />
     <state x="611" y="266" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1606604627362">
       <screen x="0" y="0" width="1680" height="1050" />
