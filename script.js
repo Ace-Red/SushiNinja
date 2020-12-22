@@ -247,7 +247,7 @@ qs(".menu-closer").addEventListener(
 )
 // корзина
 async function updateCart() {
-    let res = await fetch("http://localhost:30000/sushiJson1")
+    let res = await fetch("http://localhost:3000/sushiJson1")
     const data = await res.json()
     sushiJson1 = data
     qs(".menu-openner span").innerHTML = cart.length
