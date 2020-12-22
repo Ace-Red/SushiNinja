@@ -95,12 +95,11 @@ async function validateForm() {
         location.href = newUrl + "?#orderH"
     }
 }
-function closeCart() {
-    qs(".cart--area").style.display = "none"
-}
+
 
 function closeOrder() {
     qs(".orderPage").style.display = "none"
+    qs(".menu-openner span").innerHTML = cart.length
 }
 function showOrder() {
     qs(".orderPage").style.display = "block"
