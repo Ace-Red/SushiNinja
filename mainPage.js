@@ -41,23 +41,21 @@ async function validateForm() {
         JSON.parse(localStorage.getItem("session")).forEach((element) => {
             sushis.push(element.Nome)
         })
-        let order = JSON.stringify({
-            id,
-            sushis: sushis.join(","),
-            name,
-            address,
-            city,
-            state,
-            phone,
-        })
         await fetch(" http://localhost:3000/completedOrders", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",
             },
-            body: order,
+            body: JSON.stringify({
+                id,
+                sushis: sushis.join(","),
+                name,
+                address,
+                city,
+                state,
+                phone,
+            }),
         })
-        localStorage.setItem("completedOrders", order)
         showOrder()
 
         let currentUrl = location.href
