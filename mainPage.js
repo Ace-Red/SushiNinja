@@ -89,6 +89,7 @@ async function validateForm() {
         )
         hideServerError()
     } catch (e) {
+        console.log(e)
         showServerError()
         let currentUrl = location.href
         let newUrl = currentUrl.split("?")[0]

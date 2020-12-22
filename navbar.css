@@ -320,6 +320,7 @@ aside.show {
     font-size: 12px;
     color: #999;
     font-weight: normal;
+    margin-left: 6px;
 }
 .sushiInfo--price {
     display: flex;
