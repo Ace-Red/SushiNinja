@@ -185,7 +185,7 @@ aside.show {
 }
 .cart--totalitem {
     padding: 15px 0;
-    color: #315970;
+    color: #333333;
     display: flex;
     justify-content: space-between;
     font-size: 15px;
@@ -201,16 +201,16 @@ aside.show {
 .cart--finalizar {
     padding: 20px 30px;
     border-radius: 7px;
-    background-color: #244c88;
+    background-color: #555555;
     color: #fff;
     cursor: pointer;
     text-align: center;
     margin-top: 20px;
-    border: 2px solid #244c89;
+    border: 2px solid #333333;
     transition: all ease 0.2s;
 }
 .cart--finalizar:hover {
-    background-color: #244c99;
+    background-color: #333333;
 }
 
 .order--item {
