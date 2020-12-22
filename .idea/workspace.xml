@@ -22,11 +22,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="14968cc9-623d-446a-b124-b111f7861a34" name="Default Changelist" comment="fix bug">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.json" beforeDir="false" afterPath="$PROJECT_DIR$/db.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="14968cc9-623d-446a-b124-b111f7861a34" name="Default Changelist" comment="fix bug" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -91,7 +87,7 @@
       <workItem from="1607973802221" duration="79000" />
       <workItem from="1607974067989" duration="8419000" />
       <workItem from="1608571378608" duration="9022000" />
-      <workItem from="1608639279544" duration="3273000" />
+      <workItem from="1608639279544" duration="3562000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1606587211565</created>
@@ -296,7 +292,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608642780285</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="fix bug">
+      <created>1608643548420</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1608643548420</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -356,10 +359,10 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="600" y="234" key="RollbackChangesDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1606659037990" />
-    <state x="440" y="265" key="Vcs.Push.Dialog.v2" timestamp="1608642782842">
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2" timestamp="1608643550759">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="440" y="265" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1608642782842" />
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1608643550759" />
     <state x="440" y="269" key="Vcs.Push.Dialog.v2/0.23.1680.975@0.23.1680.975" timestamp="1607969907902" />
     <state x="611" y="266" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1606604627362">
       <screen x="0" y="0" width="1680" height="1050" />

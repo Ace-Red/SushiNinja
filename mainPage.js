@@ -99,7 +99,7 @@ async function validateForm() {
 
 function closeOrder() {
     qs(".orderPage").style.display = "none"
-    qs(".menu-openner span").innerHTML = cart.length
+    qs(".menu-openner span").innerHTML = 0
 }
 function showOrder() {
     qs(".orderPage").style.display = "block"
