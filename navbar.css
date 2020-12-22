@@ -65,10 +65,11 @@
 }
 
 .sushi-item--img {
-    width: 200px;
+    width: 250px;
     height: 200px;
+    margin-bottom: 25px;
     background-color: #eee;
-    border-radius: 100px;
+    border-radius: 16px;
     box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.2);
 }
 .sushi-item--img img {
@@ -76,11 +77,11 @@
     height: auto;
 }
 .sushi-item--add {
-    width: 50px;
+    width: 250px;
     height: 50px;
     line-height: 50px;
-    border-radius: 25px;
-    background-color: #388bc5;
+    border-radius: 16px;
+    background-color: #333333;
     text-align: center;
     color: #fff;
     font-size: 22px;
@@ -89,7 +90,7 @@
     transition: all ease 0.2s;
 }
 .sushi-item a:hover .sushi-item--add {
-    background-color: #244c88;
+    background-color: #555555;
 }
 .sushi-item--price {
     font-size: 15px;
@@ -199,17 +200,17 @@ aside.show {
 }
 .cart--finalizar {
     padding: 20px 30px;
-    border-radius: 20px;
-    background-color: #48d05f;
+    border-radius: 7px;
+    background-color: #244c88;
     color: #fff;
     cursor: pointer;
     text-align: center;
     margin-top: 20px;
-    border: 2px solid #63f77c;
+    border: 2px solid #244c89;
     transition: all ease 0.2s;
 }
 .cart--finalizar:hover {
-    background-color: #35af4a;
+    background-color: #244c99;
 }
 
 .order--item {
@@ -278,6 +279,7 @@ aside.show {
 }
 .sushiInfo h1 {
     margin-top: 50px;
+
 }
 .sushiInfo .sushiInfo--desc {
     font-size: 15px;
@@ -309,7 +311,7 @@ aside.show {
     background-color: #ccc;
 }
 .sushiInfo--size.selected {
-    background-color: #399ade;
+    background-color: #555555;
     color: #fff;
 }
 .sushiInfo--size.selected span {
@@ -396,4 +398,5 @@ aside.show {
 
 h1 {
     padding-left: 50px;
+    text-align: center;
 }

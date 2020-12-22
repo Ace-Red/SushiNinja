@@ -32,8 +32,7 @@ async function getSushiJson1() {
             currency: "UAH",
         })
         sushiItem.querySelector(".sushi-item--name").innerHTML = sushi.name
-        sushiItem.querySelector(".sushi-item--desc").innerHTML =
-            sushi.description
+        sushiItem.querySelector(".sushi-item--desc").innerHTML = sushi.description
         sushiItem.querySelector("a").addEventListener("click", (e) => {
             e.preventDefault()
             let key = e.target.closest(".sushi-item").getAttribute("data-key")
@@ -268,15 +267,15 @@ async function updateCart() {
             subtotal += sushiItem.price * cart[i].Quantidade
             switch (cart[i].Tamanho) {
                 case 0:
-                    sushiSizeName = "P"
+                    sushiSizeName = "Small"
                     break
 
                 case 1:
-                    sushiSizeName = "M"
+                    sushiSizeName = "Medium"
                     break
 
                 case 2:
-                    sushiSizeName = "G"
+                    sushiSizeName = "Big"
                     break
             }
 
