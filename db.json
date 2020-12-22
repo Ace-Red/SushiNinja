@@ -580,4 +580,16 @@
       ],
       "description": "Deskription"
     }
-  ],"completedOrders": []}
+  ],
+  "completedOrders": [
+    {
+      "id": "f1768a4373e5",
+      "sushis": "Филадельфия с угрем,Тигровый дракон",
+      "name": "Nikita",
+      "address": "Generala Vorobyova 13E",
+      "city": "Kiev",
+      "state": "Nikitasakun1@gmail.com",
+      "phone": "+380 (98)-528-47-47"
+    }
+  ]
+}
