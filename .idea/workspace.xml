@@ -23,8 +23,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="14968cc9-623d-446a-b124-b111f7861a34" name="Default Changelist" comment="fix bug">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mainPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/mainPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +89,7 @@
       <workItem from="1607973665489" duration="26000" />
       <workItem from="1607973802221" duration="79000" />
       <workItem from="1607974067989" duration="8419000" />
-      <workItem from="1608571378608" duration="6651000" />
+      <workItem from="1608571378608" duration="7033000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1606587211565</created>
@@ -224,7 +224,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608623260257</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="fix bug">
+      <created>1608636143950</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1608636143950</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -284,10 +291,10 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="600" y="234" key="RollbackChangesDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1606659037990" />
-    <state x="440" y="265" key="Vcs.Push.Dialog.v2" timestamp="1608623267129">
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2" timestamp="1608636146800">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="440" y="265" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1608623267129" />
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1608636146800" />
     <state x="440" y="269" key="Vcs.Push.Dialog.v2/0.23.1680.975@0.23.1680.975" timestamp="1607969907902" />
     <state x="611" y="266" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1606604627362">
       <screen x="0" y="0" width="1680" height="1050" />
