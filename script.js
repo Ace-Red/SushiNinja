@@ -357,7 +357,7 @@ function gg() {
         ctx.clearRect(0, 0, xCenter * 2, yCenter * 2)
         for (i = 0; i < 9; i++) {
             ctx.beginPath()
-            ctx.fillStyle = "rgba(240, 68, 0," + 0.1 * i + ")"
+            ctx.fillStyle = "rgba(85, 85, 0," + 0.1 * i + ")"
             if (posX.length == i) {
                 angle = pi * i * 0.25
                 posX[i] = xCenter + radius * Math.cos(angle)
