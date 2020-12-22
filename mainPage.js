@@ -95,11 +95,15 @@ async function validateForm() {
         location.href = newUrl + "?#orderH"
     }
 }
-
+function doTask2() {
+    cart = []
+    localStorage.setItem("session", JSON.stringify(cart))
+    updateCart()
+}
 
 function closeOrder() {
     qs(".orderPage").style.display = "none"
-    doTask()
+    doTask2()
 }
 function showOrder() {
     qs(".orderPage").style.display = "block"
