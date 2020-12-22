@@ -103,7 +103,6 @@ function doTask2() {
 
 function closeOrder() {
     qs(".orderPage").style.display = "none"
-    doTask2()
 }
 function showOrder() {
     qs(".orderPage").style.display = "block"

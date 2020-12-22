@@ -716,6 +716,24 @@
       "city": "Kiev",
       "state": "Nikitasakun1@gmail.com",
       "phone": "+380 (98)-528-47-47"
+    },
+    {
+      "id": "f1768ac65d27",
+      "sushis": "Хиросима",
+      "name": "Nikita",
+      "address": "Generala Vorobyova 13E",
+      "city": "Kiev",
+      "state": "Nikitasakun1@gmail.com",
+      "phone": "+380 (98)-528-47-47"
+    },
+    {
+      "id": "f1768ac6c8b4",
+      "sushis": "Филадельфия с тунцом",
+      "name": "Nikita",
+      "address": "Generala Vorobyova 13E",
+      "city": "Kiev",
+      "state": "Nikitasakun1@gmail.com",
+      "phone": "+380 (98)-528-47-47"
     }
   ]
 }
