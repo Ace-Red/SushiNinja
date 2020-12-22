@@ -56,11 +56,11 @@ async function validateForm() {
                 phone,
             }),
         })
-        localStorage.removeItem("session")
         document.querySelectorAll('.cart--area').forEach(function(a){
             a.remove()
         })
         showOrder()
+        sushis = []
 
         let currentUrl = location.href
         let newUrl = currentUrl.split("#")[0]
