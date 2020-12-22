@@ -207,18 +207,6 @@
       "description": "Deskription"
     },
     {
-      "id": 22,
-      "name": "Филадельфия с угрем",
-      "img": "imgSushiIteam/102-600x600.png",
-      "price": 325,
-      "sizes": [
-        "300g",
-        "750g",
-        "1000g"
-      ],
-      "description": "Deskription"
-    },
-    {
       "id": 23,
       "name": "Филадельфия с лососем и авокадо",
       "img": "imgSushiIteam/7.png",
@@ -243,46 +231,10 @@
       "description": "Deskription"
     },
     {
-      "id": 25,
-      "name": "Канада",
-      "img": "imgSushiIteam/40.png",
-      "price": 335,
-      "sizes": [
-        "300g",
-        "750g",
-        "1000g"
-      ],
-      "description": "Deskription"
-    },
-    {
-      "id": 26,
-      "name": "Тигровый дракон",
-      "img": "imgSushiIteam/42.png",
-      "price": 335,
-      "sizes": [
-        "300g",
-        "750g",
-        "1000g"
-      ],
-      "description": "Deskription"
-    },
-    {
       "id": 27,
       "name": "Орео",
       "img": "imgSushiIteam/1014.png",
       "price": 170,
-      "sizes": [
-        "300g",
-        "750g",
-        "1000g"
-      ],
-      "description": "Deskription"
-    },
-    {
-      "id": 28,
-      "name": "Золотой дракон",
-      "img": "imgSushiIteam/41.png",
-      "price": 360,
       "sizes": [
         "300g",
         "750g",
@@ -303,34 +255,10 @@
       "description": "Deskription"
     },
     {
-      "id": 210,
-      "name": "Филадельфия с тунцом",
-      "img": "imgSushiIteam/12-600x600.png",
-      "price": 300,
-      "sizes": [
-        "300g",
-        "750g",
-        "1000g"
-      ],
-      "description": "Deskription"
-    },
-    {
       "id": 211,
       "name": "Феликс гребешок",
       "img": "imgSushiIteam/14-600x600.png",
       "price": 295,
-      "sizes": [
-        "300g",
-        "750g",
-        "1000g"
-      ],
-      "description": "Deskription"
-    },
-    {
-      "id": 212,
-      "name": "Красный дракон",
-      "img": "imgSushiIteam/39.png",
-      "price": 335,
       "sizes": [
         "300g",
         "750g",
@@ -401,18 +329,6 @@
       "description": "Deskription"
     },
     {
-      "id": 32,
-      "name": "Филадельфия с угрем",
-      "img": "imgSushiIteam/102-600x600.png",
-      "price": 325,
-      "sizes": [
-        "300g",
-        "750g",
-        "1000g"
-      ],
-      "description": "Deskription"
-    },
-    {
       "id": 33,
       "name": "Филадельфия с лососем и авокадо",
       "img": "imgSushiIteam/7.png",
@@ -429,18 +345,6 @@
       "name": "Зеленый дракон",
       "img": "imgSushiIteam/9.png",
       "price": 285,
-      "sizes": [
-        "300g",
-        "750g",
-        "1000g"
-      ],
-      "description": "Deskription"
-    },
-    {
-      "id": 35,
-      "name": "Канада",
-      "img": "imgSushiIteam/40.png",
-      "price": 335,
       "sizes": [
         "300g",
         "750g",
@@ -473,18 +377,6 @@
       "description": "Deskription"
     },
     {
-      "id": 38,
-      "name": "Золотой дракон",
-      "img": "imgSushiIteam/41.png",
-      "price": 360,
-      "sizes": [
-        "300g",
-        "750g",
-        "1000g"
-      ],
-      "description": "Deskription"
-    },
-    {
       "id": 39,
       "name": "Калифорния с крабом",
       "img": "imgSushiIteam/calcr.png",
@@ -497,34 +389,10 @@
       "description": "Deskription"
     },
     {
-      "id": 310,
-      "name": "Филадельфия с тунцом",
-      "img": "imgSushiIteam/12-600x600.png",
-      "price": 300,
-      "sizes": [
-        "300g",
-        "750g",
-        "1000g"
-      ],
-      "description": "Deskription"
-    },
-    {
       "id": 311,
       "name": "Феликс гребешок",
       "img": "imgSushiIteam/14-600x600.png",
       "price": 295,
-      "sizes": [
-        "300g",
-        "750g",
-        "1000g"
-      ],
-      "description": "Deskription"
-    },
-    {
-      "id": 312,
-      "name": "Красный дракон",
-      "img": "imgSushiIteam/39.png",
-      "price": 335,
       "sizes": [
         "300g",
         "750g",
@@ -639,6 +507,24 @@
     {
       "id": "f1768a5791f5",
       "sushis": "Fruit Ninja",
+      "name": "Nikita",
+      "address": "Generala Vorobyova 13E",
+      "city": "Kiev",
+      "state": "Nikitasakun1@gmail.com",
+      "phone": "+380 (98)-528-47-47"
+    },
+    {
+      "id": "f1768a6224be",
+      "sushis": "Fruit Ninja,Тигровый дракон,Хиросима,Филадельфия с лососем",
+      "name": "Nikita",
+      "address": "Generala Vorobyova 13E",
+      "city": "Kiev",
+      "state": "Nikitasakun1@gmail.com",
+      "phone": "+380 (98)-528-47-47"
+    },
+    {
+      "id": "f1768a63947d",
+      "sushis": "Fruit Ninja,Тигровый дракон,Хиросима,Филадельфия с лососем",
       "name": "Nikita",
       "address": "Generala Vorobyova 13E",
       "city": "Kiev",
