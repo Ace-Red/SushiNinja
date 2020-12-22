@@ -360,14 +360,14 @@ aside.show {
     margin-top: 30px;
     padding: 20px 30px;
     border-radius: 20px;
-    background-color: #48d05f;
+    background-color: #555555;
     color: #fff;
     display: inline-block;
     cursor: pointer;
     margin-right: 30px;
 }
 .sushiInfo--addButton:hover {
-    background-color: #32a345;
+    background-color: #333333;
 }
 .sushiInfo--cancelButton {
     display: inline-block;
