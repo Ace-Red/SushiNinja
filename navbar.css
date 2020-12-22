@@ -58,6 +58,12 @@
     align-items: center;
     text-decoration: none;
 }
+
+.sushi-item {
+    display: block;
+    text-align: center;
+}
+
 .sushi-item--img {
     width: 200px;
     height: 200px;
@@ -241,6 +247,7 @@ aside.show {
     justify-content: center;
     align-items: center;
     overflow-y: auto;
+    z-index: 0;
 }
 .sushiWindowBody {
     width: 900px;
@@ -380,4 +387,14 @@ aside.show {
 }
 .sushiInfo--cancelMobileButton:hover {
     background-color: rgb(248, 32, 32);
+}
+
+.sushi-area {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-row-gap: 40px;
+}
+
+h1 {
+    padding-left: 50px;
 }
