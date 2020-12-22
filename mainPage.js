@@ -56,7 +56,6 @@ async function validateForm() {
                 phone,
             }),
         })
-        console.log("REQUEST WAS SEND")
         showOrder()
 
         let currentUrl = location.href

@@ -229,6 +229,7 @@ qs(".sushiInfo--addButton").addEventListener("click", () => {
             Quantidade: modalCount,
         })
     }
+    console.log("WE ADDED SOMETHING")
     localStorage.setItem("session", JSON.stringify(cart))
     console.log(cart)
     updateCart()
