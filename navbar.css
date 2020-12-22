@@ -184,7 +184,6 @@ aside.show {
 }
 .cart--totalitem {
     padding: 15px 0;
-    border-top: 1px solid #79b9dd;
     color: #315970;
     display: flex;
     justify-content: space-between;

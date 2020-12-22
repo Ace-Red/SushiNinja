@@ -35,7 +35,6 @@ async function getSushiJson1() {
         sushiItem.querySelector(".sushi-item--desc").innerHTML =
             sushi.description
         sushiItem.querySelector("a").addEventListener("click", (e) => {
-            // відміна перезагрузки(обичної поведінки)
             e.preventDefault()
             let key = e.target.closest(".sushi-item").getAttribute("data-key")
             const sushiKey = sushiJson1[key]
