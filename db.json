@@ -626,6 +626,24 @@
       "city": "Kiev",
       "state": "Nikitasakun1@gmail.com",
       "phone": "+380 (98)-528-47-47"
+    },
+    {
+      "id": "f1768a551a2f",
+      "sushis": "Хиросима,Филадельфия с тунцом,Феликс гребешок,Филадельфия с угрем,Филадельфия с лососем",
+      "name": "Nikita",
+      "address": "Generala Vorobyova 13E",
+      "city": "Kiev",
+      "state": "Nikitasakun1@gmail.com",
+      "phone": "+380 (98)-528-47-47"
+    },
+    {
+      "id": "f1768a5791f5",
+      "sushis": "Fruit Ninja",
+      "name": "Nikita",
+      "address": "Generala Vorobyova 13E",
+      "city": "Kiev",
+      "state": "Nikitasakun1@gmail.com",
+      "phone": "+380 (98)-528-47-47"
     }
   ]
 }

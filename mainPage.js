@@ -56,11 +56,9 @@ async function validateForm() {
                 phone,
             }),
         })
-        document.querySelectorAll('.cart--area').forEach(function(a){
-            a.remove()
-        })
         showOrder()
-        sushis = []
+        closeCart()
+
 
         let currentUrl = location.href
         let newUrl = currentUrl.split("#")[0]
@@ -96,6 +94,9 @@ async function validateForm() {
         let newUrl = currentUrl.split("?")[0]
         location.href = newUrl + "?#orderH"
     }
+}
+function closeCart() {
+    qs(".cart--area").style.display = "none"
 }
 
 function closeOrder() {
