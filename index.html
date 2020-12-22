@@ -29,7 +29,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="#about_us"><font style="vertical-align: inherit;font-size: 18px">
+                            <a class = "contact" href="#about_us"><font style="vertical-align: inherit;font-size: 18px">
                                 <font style="vertical-align: inherit ;color:black;">Контакты</font></font>
                             </a>
                         </li>
@@ -119,42 +119,42 @@
         <div class="cart"></div>
         <div class="cart--details">
             <div class="cart--totalitem subtotal">
-                <span>Subtotal</span>
+                <span>Начальная стоимость</span>
                 <span></span>
             </div>
             <div class="cart--totalitem desconto">
-                <span>Discount (-10%)</span>
+                <span>Скидка (-10%)</span>
                 <span></span>
             </div>
             <div class="cart--totalitem total big">
-                <span>Total</span>
+                <span>Всего</span>
                 <span></span>
             </div>
             <form name="orderForm"  onsubmit="return validateForm()">
                 <div class="form-group" id='cart'>
-                    <label for="name">Name: </label>
+                    <label for="name">Имя: </label>
                     <input type="text" id="name" class="cumer-details form-control" placeholder="Enter your name">
                 </div>
                 <div class="form-group">
-                    <label for="address">Address: </label>
+                    <label for="address">Адрес: </label>
                     <input type="text" id="address" class="customer-details form-control" placeholder="1234 Main Str">
                 </div>
                 <div class="form-group col-md-6">
-                    <label for="city">City: </label>
+                    <label for="city">Город: </label>
                     <input type="text" id="city" class="customer-details form-control">
                 </div>
                 <div class="form-group col-md-4">
-                    <label for="email">Email: </label>
+                    <label for="email">Почта: </label>
                     <input type="text" id="state" class="customer-details form-control">
                 </div>
                 <div class="form-group">
-                    <label for="phone">Phone:(format:+380 (XX)-XXX-XX-XX) </label>
+                    <label for="phone">Номер:(Формат:+380 (XX)-XXX-XX-XX) </label>
                     <input type="text" id="phone" class="customer-details form-control">
                 </div>
                 <button type="submit" class="btn btn-dark">Submit Order</button>
             </form>
 
-            <div onClick="doTask()" class="cart--finalizar">Remove</div>
+            <div onClick="doTask()" class="cart--finalizar">Удалить</div>
             <div class=""></div>
         </div>
     </div>
@@ -163,35 +163,35 @@
 
 
 <div class="serverError" id='serverError'>
-    <h1> Something goes wrong try again later</h1>
+    <h1> Что-то пошло не так,попробуйте сново</h1>
 </div>
 <div class="orderPage" id="order">
-    <h1 id = 'orderH'>Your order</h1>
+    <h1 id = 'orderH'>Ваш заказ</h1>
     <div class="orderId order--item">
-        <span class="rrr">Id:</span>
+        <span class="rrr">Номер:</span>
         <span></span>
     </div>
     <div class="orderSushisList order--item">
-        <span class="rrr">Sushis:</span>
+        <span class="rrr">Состав:</span>
         <span></span>
     </div>
     <div class="orderName order--item">
-        <span class="rrr">Name: </span>
+        <span class="rrr">Имя: </span>
         <span></span>
     </div>
     <div class="orderAdress order--item">
-        <span class="rrr">Adress:</span>
+        <span class="rrr">Адрес:</span>
         <span></span>
     </div>
     <div class="orderCity order--item">
-        <span class="rrr">City:</span>
+        <span class="rrr">Город:</span>
         <span></span>
     </div>
     <div class="orderPhone order--item">
-        <span class="rrr">Phone:</span>
+        <span class="rrr">Телефон:</span>
         <span></span>
     </div>
-    <button type="submit" onClick="closeOrder()" class="btn btn-dark">Close</button>
+    <button type="submit" onClick="closeOrder()" class="btn btn-dark">Подтвердить</button>
 
 </div>
 
@@ -209,15 +209,15 @@
             <h1>--</h1>
             <div class="sushiInfo--desc"></div>
             <div class="sushiInfo--sizearea">
-                <div class="sushiInfo--sector">Size</div>
+                <div class="sushiInfo--sector">Размер</div>
                 <div class="sushiInfo--sizes">
-                    <div data-key="0" class="sushiInfo--size">MINI<span></span></div>
-                    <div data-key="1" class="sushiInfo--size">MEDIUM<span></span></div>
-                    <div data-key="2" class="sushiInfo--size selected">KING-SIZE<span></span></div>
+                    <div data-key="0" class="sushiInfo--size">Мини<span></span></div>
+                    <div data-key="1" class="sushiInfo--size">Средний<span></span></div>
+                    <div data-key="2" class="sushiInfo--size selected">Большой<span></span></div>
                 </div>
             </div>
             <div class="sushiInfo--pricearea">
-                <div class="sushiInfo--sector">Price for one</div>
+                <div class="sushiInfo--sector">Стоимость:</div>
                 <div class="sushiInfo--price">
                     <div class="sushiInfo--actualPrice"></div>
                     <div class="sushiInfo--qtarea">
@@ -227,8 +227,8 @@
                     </div>
                 </div>
             </div>
-            <div class="sushiInfo--addButton">Add to Cart</div>
-            <div class="sushiInfo--cancelButton">Cancel</div>
+            <div class="sushiInfo--addButton">Добавить в корзину</div>
+            <div class="sushiInfo--cancelButton">Отменить</div>
         </div>
     </div>
 </div>

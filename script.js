@@ -386,7 +386,7 @@ document.addEventListener("DOMContentLoaded", ready)
 function doTask() {
     cart = []
     localStorage.setItem("session", JSON.stringify(cart))
-    alert("Sushi be pordered")
+    alert("Корзина будет удалена!")
     updateCart()
     closeModal()
 }

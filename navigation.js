@@ -1,4 +1,3 @@
-//навігація по сторінці
 document.querySelectorAll('.service').forEach(function(elm){
     elm.addEventListener('click',function(){
         console.log(elm);
@@ -16,4 +15,7 @@ document.getElementsByClassName("oury")[0].addEventListener("click", function(){
 // акции
 document.getElementsByClassName("acti")[0].addEventListener("click", function(){
     window.scrollTo(0, document.querySelector(".Stocks").offsetTop);
+});
+document.getElementsByClassName("contact")[0].addEventListener("click", function(){
+    window.scrollTo(0, document.querySelector(".page-footer").offsetTop);
 });

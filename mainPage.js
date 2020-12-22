@@ -15,22 +15,22 @@ async function validateForm() {
     let state = document.orderForm.state.value
     let phone = document.orderForm.phone.value
     if (name == null || name == "") {
-        alert("Name field can't be blank.")
+        alert("Введите имя")
         return false
     } else if (address === null || address === "") {
-        alert("Address field can't be blank.")
+        alert("Введите адрес")
         return false
     } else if (city === null || city === "") {
-        alert("City field can't be blank.")
+        alert("Введите город")
         return false
     } else if (state === null || state === "") {
-        alert("State field can't be blank.")
+        alert("Введите почту")
         return false
     } else if (
         // регулярний вираз
         phone.match(/^\+[0-9]{3}\s\((\d+)\)-\d{3}-\d{2}-\d{2}/g) == null
     ) {
-        alert("Please enter valid phone number.")
+        alert("Введите номер")
         return false
     }
     try {
