@@ -41,7 +41,7 @@ async function validateForm() {
         JSON.parse(localStorage.getItem("session")).forEach((element) => {
             sushis.push(element.Nome)
         })
-        await fetch(" http://localhost:63342/completedOrders", {
+        await fetch(" http://localhost:30000/completedOrders", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",

@@ -249,7 +249,7 @@ qs(".menu-closer").addEventListener(
 async function updateCart() {
     let res = await fetch("http://localhost:3000/sushiJson1")
     const data = await res.json()
-    pizzaJson1 = data
+    sushiJson1Json1 = data
     qs(".menu-openner span").innerHTML = cart.length
 
     if (cart.length > 0) {
@@ -386,7 +386,7 @@ document.addEventListener("DOMContentLoaded", ready)
 function doTask() {
     cart = []
     localStorage.setItem("session", JSON.stringify(cart))
-    alert("Pizza be pordered")
+    alert("Sushi be pordered")
     updateCart()
     closeModal()
 }
