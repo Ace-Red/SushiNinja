@@ -27,17 +27,14 @@ async function validateForm() {
         alert("Введите почту")
         return false
     } else if (
-        // регулярний вираз
         phone.match(/^\+[0-9]{3}\s\((\d+)\)-\d{3}-\d{2}-\d{2}/g) == null
     ) {
         alert("Введите номер")
         return false
     }
     try {
-        //генерація айді
         let id = `f${(+new Date()).toString(16)}`
         let sushis = []
-        // забира дані з локал стораджа і масив суш створюється
         JSON.parse(localStorage.getItem("session")).forEach((element) => {
             sushis.push(element.Nome)
         })
@@ -65,7 +62,6 @@ async function validateForm() {
             "pt-BR",
             {}
         )
-
         qs(".orderSushisList span:last-child").innerHTML = sushis
             .join(",")
             .toLocaleString("pt-BR", {})
@@ -102,6 +98,7 @@ function doTask2() {
 
 function closeOrder() {
     qs(".orderPage").style.display = "none"
+    doTask2()
 }
 function showOrder() {
     qs(".orderPage").style.display = "block"

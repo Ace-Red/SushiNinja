@@ -770,6 +770,42 @@
       "city": "Kiev",
       "state": "Nikitasakun1@gmail.com",
       "phone": "+380 (98)-528-47-47"
+    },
+    {
+      "id": "f1768ae08531",
+      "sushis": "Хиросима",
+      "name": "Nikita",
+      "address": "Generala Vorobyova 13E",
+      "city": "Kiev",
+      "state": "Nikitasakun1@gmail.com",
+      "phone": "+380 (98)-528-47-47"
+    },
+    {
+      "id": "f1768ae24667",
+      "sushis": "Филадельфия с лососем и авокадо",
+      "name": "Nikita",
+      "address": "Generala Vorobyova 13E",
+      "city": "Kiev",
+      "state": "Nikitasakun1@gmail.com",
+      "phone": "+380 (98)-528-47-47"
+    },
+    {
+      "id": "f1768b0ccbd3",
+      "sushis": "Филадельфия с угрем,Филадельфия с лососем и авокадо,Зеленый дракон,Филадельфия с лососем и авокадо,Филадельфия с лососем и авокадо",
+      "name": "Nikita",
+      "address": "Generala Vorobyova 13E",
+      "city": "Kiev",
+      "state": "Nikitasakun1@gmail.com",
+      "phone": "+380 (98)-528-47-47"
+    },
+    {
+      "id": "f1768b0cfa6b",
+      "sushis": "Филадельфия с угрем,Филадельфия с лососем и авокадо,Зеленый дракон,Филадельфия с лососем и авокадо,Филадельфия с лососем и авокадо",
+      "name": "Nikita",
+      "address": "Generala Vorobyova 13E",
+      "city": "Kiev",
+      "state": "Nikitasakun1@gmail.com",
+      "phone": "+380 (98)-528-47-47"
     }
   ]
 }
